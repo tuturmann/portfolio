@@ -4,9 +4,8 @@
 
     @font-face {
         font-family: "EastKind";
-        src:
-        local("EastKind"),
-        url("EastKind.otf") format("opentype");
+        src: local("EastKind");
+        src: url("EastKind.otf") format("opentype");
     }
     
 
@@ -17,5 +16,9 @@
 
     :global(*) {
         font-family: 'Inconsolata', monospace;
+    }
+
+    :global(img){
+        user-select: none;
     }
 </style>

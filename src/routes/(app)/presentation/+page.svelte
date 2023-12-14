@@ -34,7 +34,12 @@
         margin-top: 25px;
     }
 
-
+    h1{
+        font-family: "EastKind";
+        font-weight: 200;
+        color:#AB5650;
+        font-size: 50px;
+    }
 
     .drawing{
         float:right;

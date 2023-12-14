@@ -47,6 +47,7 @@
 <style>
 
     .windowBar{
+        user-select: none;
         position:fixed;
         top:35px;
         display:flex;
@@ -66,9 +67,11 @@
 
     .windowBar span{
         margin-left:15px;
+        user-select: none;
     }
 
     nav{
+        user-select: none;
         position:fixed;
         display:flex;
         align-items: center;
@@ -93,6 +96,7 @@
     }
 
     header{
+        user-select: none;
         display:flex;
         position:fixed;
         width:100%;
