@@ -9,8 +9,10 @@
 
     const unsub = navigating.subscribe((n) => {
         if (browser && n) {
-            apptitle = document.title;
-            console.log(apptitle);
+            setTimeout(()=>{
+                apptitle = document.title;
+                console.log(apptitle);
+            },100);
         }
     });
 
