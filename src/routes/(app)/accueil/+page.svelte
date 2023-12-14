@@ -3,11 +3,11 @@
 </svelte:head>
 
 <img src="background-accueil.jpg" alt="landscape"/>
-    <div>
-        <h1>port<br/>folio</h1>
-    </div>
+<div>
+    <h1>port<br/>folio</h1>
+</div>
     
-    <style>
+<style>
     img{
         background-image: url("background-accueil.jpg");
         height:100vh;
