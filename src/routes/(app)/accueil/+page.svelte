@@ -57,7 +57,7 @@
         z-index: 0;
         height:200px;
         position:absolute;
-        animation: slideshow-reverse 20s linear infinite;
+        animation: slideshow-reverse 40s linear infinite;
     }
 
 
