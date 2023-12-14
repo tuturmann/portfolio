@@ -4,7 +4,6 @@
 
     @font-face {
         font-family: "EastKind";
-        src: local("EastKind");
         src: url("EastKind.otf") format("opentype");
     }
     

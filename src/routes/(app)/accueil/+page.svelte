@@ -21,6 +21,8 @@
         z-index: -1;
         top:0;
         left:0;
+        width:100%;
+        height:100%;
     }
 
     .montagnes{
@@ -44,12 +46,17 @@
         left:0;
     }
 
+    .nuages{
+        width:100%;
+    }
+
     .nuage1{
         z-index: 1;
         top:50%;
         position:absolute;
         height:200px;
-        animation: slideshow 30s linear infinite;
+        animation: slideshow 20s linear infinite;
+
     }
 
     .nuage2{
@@ -57,29 +64,21 @@
         z-index: 0;
         height:200px;
         position:absolute;
-        animation: slideshow-reverse 40s linear infinite;
+        animation: slideshow 30s linear infinite reverse;
+        
     }
 
 
     @keyframes slideshow {
         0% {
-            transform:translateX(-100%);
+            left:-50%;
         }
 
         100% {
-            transform:translateX(400%);
+            left:100%;
         }
     }
 
-    @keyframes slideshow-reverse {
-        0% {
-            transform:translateX(400%);
-        }
-
-        100% {
-            transform:translateX(-100%);
-        }
-    }
 
     h1{
         font-family: "EastKind";
