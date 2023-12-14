@@ -4,7 +4,7 @@
 
     @font-face {
         font-family: "EastKind";
-        src: url("EastKind.otf") format("opentype");
+        src: url("/EastKind.otf") format("opentype");
     }
     
 
