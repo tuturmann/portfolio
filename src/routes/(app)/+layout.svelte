@@ -39,10 +39,11 @@
 <slot/>
 
 <nav class:home>
+    <a href="presentation"><img src="me.png" alt="icône presentation"></a>
     <a href="formation"><img src="formation.png" alt="icône formation"></a>
     <a href="competences"><img src="competences.png" alt="icône compétences"></a>
-    <a href="presentation"><img src="accueil.png" alt="icône presentation"></a>
     <a href="projets"><img src="projects.png" alt="icône projets"></a>
+    <a target="_blank" href="https://manonlclq5.artstation.com"><img src="dessin.png" alt="icône dessins"></a>
     <a href="contact"><img src="phone.png" alt="icône contact"></a>
 </nav>
 
@@ -86,6 +87,10 @@
         box-sizing: border-box;
         padding:10px 50px;
         border-radius: 23px;
+    }
+
+    nav img {
+        width:100%;
     }
 
     .home{

@@ -10,9 +10,10 @@
         <img class="nuage2" src="nuage2.png" alt="cloud 2">
     </div>
 </div>
-<div>
+<div class="title">
     <h1>port<br/>folio</h1>
 </div>
+
     
 <style>
 
@@ -88,7 +89,7 @@
         user-select: none;
     }
     
-    div{
+    .title{
         display:flex;
         justify-content: center;
         align-items: center;

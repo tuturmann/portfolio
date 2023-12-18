@@ -11,19 +11,19 @@
     <img class="separator" src="line.png" alt="separator">
     <div class="imagentext">
         <img src="envelope.png" alt="envelope logo">
-        <a href="mailto:manon.leclercq7.etu@univ-lille.fr">manon.leclercq7.etu@univ-lille.fr</a>
+        <a target="_blank" href="mailto:manon.leclercq7.etu@univ-lille.fr">manon.leclercq7.etu@univ-lille.fr</a>
     </div>
     <div class="imagentext">
         <img src="github.png" alt="github logo">
-        <a href="https://github.com/tuturmann">tuturmann</a>
+        <a target="_blank" href="https://github.com/tuturmann">tuturmann</a>
     </div>
     <div class="imagentext">
         <img src="linkedin.png" alt="linkedin logo">
-        <a href="https://www.linkedin.com/in/manon-l-789108264/">Manon Leclercq</a>
+        <a target="_blank" href="https://www.linkedin.com/in/manon-l-789108264/">Manon Leclercq</a>
     </div>
     <div class="imagentext">
         <img src="gitlab.png" alt="gitlab logo">
-        <a href="https://gitlab.univ-lille.fr/manon.leclercq7.etu">@manon.leclercq7.etu</a>
+        <a target="_blank" href="https://gitlab.univ-lille.fr/manon.leclercq7.etu">@manon.leclercq7.etu</a>
     </div>
 
 </div>
