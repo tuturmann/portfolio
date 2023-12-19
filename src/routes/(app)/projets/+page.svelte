@@ -77,6 +77,10 @@
 </div>
 
 <style>
+    span{
+        font-size: 25px;
+    }
+
     .year{
         color:grey;
     }
@@ -93,7 +97,7 @@
     }
 
     .projet{
-        height:80vh;   
+        height:80vh;
         position: relative;
         display:flex;
         flex-direction: column;
@@ -126,6 +130,7 @@
         color:#AB5650;
         font-size: 50px;
     }
+
     h2{
         font-family: "EastKind";
         font-weight: 200;
