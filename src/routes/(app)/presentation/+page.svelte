@@ -1,4 +1,17 @@
+<script>
 
+    function calculateMyAge() {
+        const today = new Date();
+        const birthDay = new Date(2004, 11, 5); // month is 0-11, 5th Dec 2004
+        let age = today.getFullYear() - birthDay.getFullYear();
+        const m = today.getMonth() - birthDay.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDay.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+</script>
 <svelte:head>
     <title>Présentation</title>
 </svelte:head>
@@ -10,7 +23,7 @@
     
     <img class="separator" src="line.png" alt="separator">
 
-    <span>Je suis Manon, 19 ans, étudiante en deuxième année de BUT Informatique à Lille.</span>
+    <span>Je suis Manon, { calculateMyAge() } ans, étudiante en deuxième année de BUT Informatique à Lille.</span>
     <span>Je recherche un stage en développement d’applications, développement web ou bases de données du <strong>15 avril au 21 juin 2024</strong>, avec si possible <strong>poursuite en alternance</strong>.</span>
 </div>
 

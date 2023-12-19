@@ -61,6 +61,7 @@
         width:100%;
         font-size: larger;
         border:2px solid rgb(136, 63, 58);
+        z-index: 3;
     }
     .windowBar img{
         margin-right: 15px;
@@ -111,6 +112,7 @@
         color:white;
         height:35px;
         align-items: center;
+        z-index: 3;
     }
 
     header>img{

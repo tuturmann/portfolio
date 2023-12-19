@@ -7,6 +7,10 @@
         src: url("/EastKind.otf") format("opentype");
     }
     
+    @font-face {
+        font-family: "TanNimbus";
+        src: url("/TAN-NIMBUS.otf") format("opentype");
+    }
 
     :global(body){
         margin: 0;

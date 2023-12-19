@@ -6,26 +6,26 @@
 <div class="text">
     <h1>Formation et Diplômes</h1>
     <div class="row">
-            <span>&gt 2022-2025 </span>
+            <span>&gt; 2022-2025 </span>
             <span class="pink">BUT Informatique </span>
             <span>IUT de Lille</span>
     </div>
     <div class="row">
-        <span>&gt 2022 </span>
+        <span>&gt; 2022 </span>
         <span class="pink">Bac Général - Mention Très Bien Section Européenne </span>
         <span>Lycée Alexandre Ribot, Saint-Omer</span>
         <span>Spécialités Numérique et Sciences de l'Informatique (NSI) et Langues, Littérature et Civilisations Etrangères : Anglais (LLCE)</span>
     </div>
     <div class="row">
-        <span>&gt 2022 </span>
+        <span>&gt; 2022 </span>
         <span class="pink">Anglais Certification Niveau B2+</span>
         <span>Certification Cambridge (204725119300003)</span>
     </div>
 
     <h1> Hobbies </h1>
-    <span class="hobby">&gt Dessin</span>
-    <span class="hobby">&gt Jeux Vidéo</span>
-    <span class="hobby">&gt Langues</span>
+    <span class="hobby">&gt; Dessin</span>
+    <span class="hobby">&gt; Jeux Vidéo</span>
+    <span class="hobby">&gt; Langues</span>
 </div>
     
     <style>
