@@ -31,6 +31,10 @@
 
 
 <style>
+    span{
+        font-size: 25px;
+    }
+    
     .text{
         margin: 15px;
         display:flex;
