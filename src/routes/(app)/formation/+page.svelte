@@ -28,11 +28,14 @@
     <span class="hobby">&gt; Langues</span>
 </div>
     
-    <style>
+<style>
+    span{
+        font-size: 20px;
+    }
     .row{
         display:flex;
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
         
     .text{
