@@ -24,4 +24,9 @@
     :global(img){
         user-select: none;
     }
+
+    :global(html){
+        scroll-behavior: smooth;
+    }    
+    
 </style>
