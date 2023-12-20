@@ -21,9 +21,12 @@
             </div>
         </div>
     </div>
+    <!-- 
+
     <div class="manuel">
         
     </div>
+    -->
 </div>
     
     <style>
@@ -49,12 +52,13 @@
     }
     
         
-    
+
     .manuel{
         background-color: black;
         height:60vh;
         width:50%;
     }
+        
 
     .columns span{
         margin-bottom: 25px;
