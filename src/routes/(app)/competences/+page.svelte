@@ -27,7 +27,7 @@
         },
         {
             name: "photoshop",
-            description: "Photoshop est un logiciel d'édition d'images. Je l'utilise pour dessiner, ainsi que d'autres logiciels concurrents tels que ClipPaint Studio"
+            description: "Photoshop est un logiciel d'édition d'images. Je l'utilise pour dessiner, ainsi que d'autres logiciels concurrents tels que ClipPaint Studio."
         },
         {
             name: "figma",
@@ -66,7 +66,7 @@
         {#if index === -1}
             <p>Cliquez sur une compétence pour voir le texte</p>
         {:else}
-            <span>$ man {skills[index].name}</span>
+            <span>manon@portfolio:~$ man {skills[index].name}</span>
             <p>{@html skills[index].description}</p>
         {/if}
     </div>
