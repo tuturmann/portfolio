@@ -3,7 +3,7 @@
     const skills = [
         {
             name: "java",
-            description: "Java est un langage orienté-objet"
+            description: "Java est un langage orienté-objet. En BUT Informatique à Lille, nous utilisons principalement Java pour développer des applications. La plupart de mes projets est en Java."
         },
         {
             name: "python",
