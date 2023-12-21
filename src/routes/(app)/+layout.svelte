@@ -63,10 +63,12 @@
         border:2px solid rgb(136, 63, 58);
         z-index: 3;
     }
+
     .windowBar img{
         margin-right: 15px;
         height:25px;
         width:25px;
+
     }
 
     .windowBar span{
@@ -92,6 +94,7 @@
 
     nav img {
         width:100%;
+        pointer-events: none;
     }
 
     .home{
