@@ -141,6 +141,7 @@
             <Skill name="Java"/>
             <Skill name="PostgreSQL"/>
             <Skill name="REST"/>
+            <Skill name="Bruno"/>
         </div>
 
         <img class="illustration" src="apirest.png" alt="API rest">
@@ -149,7 +150,7 @@
         
         <span>API Rest faite en Servlet Java et PostgreSQL avec le Design Pattern DAO. Aucun front-end pour ce projet, tout s'utilise avec des requêtes CURL/HTTP.</span>
         <span>Ce projet consiste en une application web reliée à une base de données. En utilisant l'application, on peut visualiser les pizzas, ingrédients, commandes, et en ajouter/supprimer/modifier.</span>
-        
+        <span>Il m'a permis d'intégrer SQL dans Java via la norme JDBC. Pour tester le projet, j'ai utilisé BRUNO.</span>
         <span>Projet réalisé seule.</span>
 
         <a class="lienProjet" href="https://gitlab.univ-lille.fr/manon.leclercq7.etu/pizzaland.git">Lien (il faut avoir un compte GitLab)</a>
