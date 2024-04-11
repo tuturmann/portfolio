@@ -25,6 +25,11 @@
         <div class="summarySection"><img src="flower.png" alt="flower icon"> <a href="#projet2">Plateforme de covoiturage</a></div>
         <div class="summarySection"><img src="flower.png" alt="flower icon"> <a href="#projet3">Ilyva</a></div>
         <div class="summarySection"><img src="flower.png" alt="flower icon"> <a href="#projet4">Morpion</a></div>
+        <div class="summarySection"><img src="flower.png" alt="flower icon"> <a href="#projet5">Chasse au Monstre</a></div>
+        <div class="summarySection"><img src="flower.png" alt="flower icon"> <a href="#projet6">API Rest</a></div>
+        <div class="summarySection"><img src="flower.png" alt="flower icon"> <a href="#projet7">Breaking Kart</a></div>
+        
+        
 
     </div>
     
@@ -105,6 +110,79 @@
         <span class="year">2023</span>
     </div>
     
+    <div id="projet5" class="projet">
+        <Cloud name="01"/>
+        <h2>Chasse au Monstre</h2>
+        <div class="competences">
+            <Skill name="Java"/>
+            <Skill name="Git"/>
+            <Skill name="Graph"/>
+        </div>
+
+        <img class="illustration" src="chasseaumonstre.png" alt="chasse au monstre">
+        
+        <img class="separator" src="line.png" alt="separator">
+        
+        <span>Le jeu peut se jouer à 1 ou 2 joueurs, où dans chaque partie il y a un monstre et un chasseur. Le jeu se déroule en tour par tour, le monstre doit essayer de rejoindre la sortie pendant que le chasseur lui tire dessus.</span>
+        <span>Il est également possible de jouer en réseau sur 2 machines différentes.</span>
+        <span>Le jeu possède de nombreuses mécaniques de gameplay additionnelles, comme par exemple un brouillard de guerre qui masque les cases que le monstre n'a pas explorées, ou encore des grenades que le chasseur peut utiliser pour découvrir une grande zone.</span>
+        <span>J'ai réalisé la partie IA du Monstre et du Chasseur. Le monstre se déplace en essayant de trouver le chemin le plus court vers la sortie, en utilisant l'algorithme de Dijkstra. J'ai également réalisé des thèmes.</span>
+        <span>Projet réalisé par groupe de 5.</span>
+
+        <a class="lienProjet" href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-13">Lien (il faut avoir un compte GitLab)</a>
+
+        <span class="year">2023</span>
+    </div>
+    
+    <div id="projet6" class="projet">
+        <Cloud name="01"/>
+        <h2>API Rest</h2>
+        <div class="competences">
+            <Skill name="Java"/>
+            <Skill name="PostgreSQL"/>
+            <Skill name="REST"/>
+        </div>
+
+        <img class="illustration" src="apirest.png" alt="API rest">
+        
+        <img class="separator" src="line.png" alt="separator">
+        
+        <span>API Rest faite en Servlet Java et PostgreSQL avec le Design Pattern DAO. Aucun front-end pour ce projet, tout s'utilise avec des requêtes CURL/HTTP.</span>
+        <span>Ce projet consiste en une application web reliée à une base de données. En utilisant l'application, on peut visualiser les pizzas, ingrédients, commandes, et en ajouter/supprimer/modifier.</span>
+        
+        <span>Projet réalisé seule.</span>
+
+        <a class="lienProjet" href="https://gitlab.univ-lille.fr/manon.leclercq7.etu/pizzaland.git">Lien (il faut avoir un compte GitLab)</a>
+
+        <span class="year">2024</span>
+    </div>
+
+    <div id="projet7" class="projet">
+        <Cloud name="01"/>
+        <h2>Breaking Kart</h2>
+        <div class="competences">
+            <Skill name="Javascript"/>
+            <Skill name="HTML/CSS"/>
+            <Skill name="Git"/>
+            <Skill name="Gestion de projet"/>
+        </div>
+
+        <img class="illustration" src="breakingkart1.png" alt="delivereat projet agile">
+        
+        <img class="separator" src="line.png" alt="separator">
+        
+        <span>Jeu de type "SHOOT'EM UP" en Javascript. Nous avons fait un canva sur lequel nous faisons apparaître des ennemis, des joueurs. On a un système de power-ups.</span>
+        <span>Le jeu est jouable sur un même réseau, grâce à une architecture client/serveur. Le jeu est réalisé en SPA (Single Page App).</span>
+        <span>J'ai réalisé le canva, lié le leaderboard au graphique, designé tous les menus en HTML/CSS/JS.</span>
+        <span>J'ai aussi réalisé des mini-jeux trouvables dans les fichiers whackasaul.html et clicker.html, que l'on n'a pas pu inclure par manque de temps.</span>
+        
+        <span>Projet réalisé par groupe de 3 avec la gestion de projet sur Git (utilisation de Milestones, Issues).</span>
+
+        <a class="lienProjet" href="https://gitlab.univ-lille.fr/s4-javascript/sae-2024-groupeg-boumansour-leclercq-moyon">Lien (il faut avoir un compte GitLab)</a>
+
+        <span class="year">2024</span>
+    </div>
+
 </div>
     
     <style>
@@ -148,7 +226,7 @@
     }
 
     .projet{
-        height:80vh;
+        height:20%;
         position: relative;
         display:flex;
         flex-direction: column;
