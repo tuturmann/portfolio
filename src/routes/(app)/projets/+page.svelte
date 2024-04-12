@@ -237,6 +237,7 @@
     .projet span{
         width:35%;
         padding: 10px 0 10px 0;
+        text-align: justify;
     }
 
     .competences{
