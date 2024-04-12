@@ -129,7 +129,7 @@
         <span>J'ai réalisé la partie IA du Monstre et du Chasseur. Le monstre se déplace en essayant de trouver le chemin le plus court vers la sortie, en utilisant l'algorithme de Dijkstra. J'ai également réalisé des thèmes.</span>
         <span>Projet réalisé par groupe de 5.</span>
 
-        <a class="lienProjet" href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-13">Lien (il faut avoir un compte GitLab)</a>
+        <a class="lienProjet" href="https://gitlab.univ-lille.fr/sae302/2023/H1_SAE3A.git">Lien (il faut avoir un compte GitLab)</a>
 
         <span class="year">2023</span>
     </div>
