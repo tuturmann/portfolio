@@ -111,7 +111,7 @@
     </div>
     
     <div id="projet5" class="projet">
-        <Cloud name="01"/>
+        <Cloud name="05"/>
         <h2>Chasse au Monstre</h2>
         <div class="competences">
             <Skill name="Java"/>
@@ -135,7 +135,7 @@
     </div>
     
     <div id="projet6" class="projet">
-        <Cloud name="01"/>
+        <Cloud name="06"/>
         <h2>API Rest</h2>
         <div class="competences">
             <Skill name="Java"/>
@@ -159,7 +159,7 @@
     </div>
 
     <div id="projet7" class="projet">
-        <Cloud name="01"/>
+        <Cloud name="07"/>
         <h2>Breaking Kart</h2>
         <div class="competences">
             <Skill name="Javascript"/>
