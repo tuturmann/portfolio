@@ -25,6 +25,10 @@
         <img src="gitlab.png" alt="gitlab logo">
         <a target="_blank" href="https://gitlab.univ-lille.fr/manon.leclercq7.etu">@manon.leclercq7.etu</a>
     </div>
+    <div class="imagentext">
+        <img src="gitlab.png" alt="CV logo">
+        <a target="_blank" href="/cv.pdf">Mon CV</a>
+    </div>
 
 </div>
 

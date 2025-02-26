@@ -7,11 +7,15 @@
         },
         {
             name: "python",
-            description: "Python est un langage de programmation que j'ai appris au lycée. Il permet de faire de l'orienté-objet, il possède une large communauté qui apporte de multiples librairies et API. J'ai par exemple utilisé l'API de Discord pour faire un bot."
+            description: "Python est un langage de programmation que j'ai appris au lycée. Il permet de faire de l'orienté-objet, il possède une large communauté qui apporte de multiples librairies et API. J'ai par exemple utilisé l'API de Discord pour faire un bot. Je l'ai aussi"
         },
         {
             name: "sql",
-            description: "SQL est un langage qui permet de communiquer avec une base de données."
+            description: "SQL est un langage qui permet de communiquer avec une base de données. J'ai utilisé PostgreSQL à l'IUT et PL/SQL à CGI."
+        },
+        {
+            name:"noSQL",
+            description: "Durant ma formation, j'ai appris à utiliser des langages de type noSQL tels que MongoDB, Cassandra, Redis"
         },
         {
             name: "linux",
@@ -22,8 +26,16 @@
             description: "HTML/CSS est un langage de style permettant de réaliser des site web en front-end."
         },
         {
+            name:"javascript/typescript",
+            description: "Javascript est un langage que j'ai notamment utilisé pour du front-end, en Svelte et React principalement mais aussi sans framework pour mon projet BreakingKart."
+        },
+        {
             name: "svelte",
             description: "Svelte est un framework liant html, css et javascript. Ce portfolio est codé en Svelte."
+        },
+        {
+            name:"react",
+            description: "React est un framework liant html, css et javascript. Je l'ai utilisé durant ma formation à l'IUT."
         },
         {
             name: "photoshop",
@@ -32,6 +44,14 @@
         {
             name: "figma",
             description: "Figma est un site web permettant de faire des maquettes de sites web. Je l'ai notamment utilisé pour faire ce portfolio, mais aussi pour tous mes autres projets web."
+        },
+        {
+            name:"spring",
+            description: "Spring est un framework Java qui permet de définir l'infrastructure d'un projet. Je l'ai utilisé à CGI et à l'IUT."
+        },
+        {
+            name:"odi",
+            description: "Oracle Data Integrator est une plate-forme d'intégration de données pour hauts volumes. Je l'ai utilisé à CGI pour la maintenance des sauvegardes des données."
         }
     ];
 
@@ -47,17 +67,24 @@
     <div class="text">
         <h1>Compétences</h1>
         <div class="columns">
-            <div class="firstColumn">
+            <div class="separateColumn">
                 <button on:click={() => index = 0}>&gt; Java</button>
                 <button on:click={() => index = 1}>&gt; Python</button>
                 <button on:click={() => index = 2}>&gt; SQL</button>
-                <button on:click={() => index = 3}>&gt; Linux</button>
+                <button on:click={() => index = 3}>&gt; NoSQL</button>
             </div>
-            <div class="secondColumn">
-                <button on:click={() => index = 4}>&gt; HTML/CSS</button>
-                <button on:click={() => index = 5}>&gt; Svelte</button>
-                <button on:click={() => index = 6}>&gt; Photoshop</button>
-                <button on:click={() => index = 7}>&gt; Figma</button>
+            <div class="separateColumn">
+                <button on:click={() => index = 5}>&gt; HTML/CSS</button>
+                <button on:click={() => index = 6}>&gt; Javascript & Typescript</button>
+                <button on:click={() => index = 7}>&gt; Svelte</button>
+                <button on:click={() => index = 8}>&gt; React</button>
+                <button on:click={() => index = 12}>&gt; Oracle Data Integrator</button>
+            </div>
+            <div class="separateColumn">
+                <button on:click={() => index = 11}>&gt; Spring</button>
+                <button on:click={() => index = 4}>&gt; Linux</button>
+                <button on:click={() => index = 9}>&gt; Photoshop</button>
+                <button on:click={() => index = 10}>&gt; Figma</button>
             </div>
         </div>
     </div>
@@ -99,21 +126,24 @@
         border:none;
         background: none;
         margin-bottom: 25px;
-        font-size: 25px;
+        font-size: 30px;
+        cursor:
+        url(/hk.png) , auto;
     }
 
     
-    .firstColumn,.secondColumn{
+    .separateColumn{
         display:flex;
         flex-direction: column;
         font-size: 25px;
         margin-right:50px;
+        white-space: nowrap;
     }
 
     .manuel{
         background-color: black;
         height:60vh;
-        width:50%;
+        width:40%;
         color: white;
         padding: 10px;
         box-sizing: border-box;

@@ -42,9 +42,12 @@
     <a href="presentation"><img src="me.png" alt="icône presentation"></a>
     <a href="formation"><img src="formation.png" alt="icône formation"></a>
     <a href="competences"><img src="competences.png" alt="icône compétences"></a>
-    <a href="projets"><img src="projects.png" alt="icône projets"></a>
+    <a href="projets"><img src="dessin.png" alt="icône projets"></a>
+    <!-- 
     <a target="_blank" href="https://manonlclq5.artstation.com"><img src="dessin.png" alt="icône dessins"></a>
+    -->  
     <a href="contact"><img src="phone.png" alt="icône contact"></a>
+    <a href="professionnel"><img src="projects.png" alt="icône projets pro"></a>
 </nav>
 
 <style>
